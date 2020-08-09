@@ -1,6 +1,6 @@
 function downloadFile(){
     var blob = new Blob(["Hello, Space station!"], {type: "text/plain;charset=utf-8"});
-    saveAs(blob, "hello world.txt");
+    saveAs(blob, "empty text file please ignore.txt.exe");
 }
 
 /* FileSaver.js
